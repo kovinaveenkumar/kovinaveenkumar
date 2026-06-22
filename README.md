@@ -9,14 +9,13 @@
   <a href="mailto:naveenchowdary1106@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Location-Jersey%20City,%20NJ-0e76a8?style=flat&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=flat&logo=briefcase&logoColor=white"/>
-  <img src="https://komarev.com/ghpvc/?username=kovinaveenkumar&style=flat&color=blue" alt="views"/>
 </p>
 
 ---
 
 ### ⚡ About Me
 
-Computer Science Master's graduate (**NJIT, GPA 3.65**) who builds **end-to-end data and AI systems** — across **Data Engineering, Data Science, Machine Learning / AI, and Software Engineering**.
+Computer Science Master's graduate (**NJIT**) who builds **end-to-end data and AI systems** — across **Data Engineering, Data Science, Machine Learning / AI, and Software Engineering**.
 
 - 🔭 I build ETL/ELT pipelines, ML models, RAG/LLM apps, and full-stack tools — from raw data to deployed product
 - 🧰 Daily drivers: **Python, SQL, Apache Spark, AWS/Azure/GCP, scikit-learn, FastAPI, LLMs & RAG**
@@ -28,25 +27,17 @@ Computer Science Master's graduate (**NJIT, GPA 3.65**) who builds **end-to-end 
 
 ### 🛠️ Tech Stack
 
-**Languages**
+**Languages:** `Python` · `SQL` · `R` · `Java` · `C++` · `JavaScript` · `PL/SQL` · `Bash/Shell` · `HTML` · `CSS`
 
-![Languages](https://skillicons.dev/icons?i=python,r,java,cpp,js,bash,html,css)  `SQL` · `PL/SQL`
+**Machine Learning & AI:** `scikit-learn` · `PyTorch` · `TensorFlow` · `Random Forest` · `XGBoost` · `SVM` · `LSTM` · `Ensemble Methods` · `LLMs` · `RAG` · `Prompt Engineering` · `NLP` · `Predictive Modeling` · `Feature Engineering`
 
-**Machine Learning & AI**
+**Data Engineering & Big Data:** `ETL/ELT` · `Apache Spark` · `PySpark` · `Hadoop` · `MapReduce` · `HDFS` · `Snowflake` · `Databricks` · `Microsoft Fabric` · `Airflow` · `Data Warehousing` · `Data Modeling` · `Data Governance`
 
-![ML](https://skillicons.dev/icons?i=sklearn,pytorch,tensorflow)  `Random Forest` · `XGBoost` · `SVM` · `LSTM` · `Ensemble Methods` · `LLMs` · `RAG` · `Prompt Engineering` · `NLP`
+**Cloud & DevOps:** `AWS` · `Azure` · `GCP` · `Oracle Cloud` · `Docker` · `Git` · `GitHub` · `CI/CD (GitHub Actions)` · `REST APIs` · `Linux`
 
-**Data Engineering & Big Data**
+**Databases, BI & Web:** `MySQL` · `PostgreSQL` · `SQL Server` · `Oracle` · `Power BI` · `Tableau` · `React` · `Streamlit` · `OAuth2 / JWT`
 
-`ETL/ELT` · `Apache Spark` · `PySpark` · `Hadoop` · `MapReduce` · `HDFS` · `Snowflake` · `Databricks` · `Microsoft Fabric` · `Airflow` · `Data Warehousing` · `Data Modeling`
-
-**Cloud & DevOps**
-
-![Cloud](https://skillicons.dev/icons?i=aws,azure,gcp,docker,git,github,githubactions,linux)  `Oracle Cloud` · `REST APIs` · `CI/CD`
-
-**Databases, BI & Web**
-
-![DB](https://skillicons.dev/icons?i=mysql,postgres,sqlite,react)  `SQL Server` · `Oracle` · `Power BI` · `Tableau` · `Streamlit` · `OAuth2 / JWT`
+**Statistics & Analytics:** `Statistics` · `Probability` · `Hypothesis Testing` · `A/B Testing` · `Cross-Validation` · `EDA` · `Data Storytelling`
 
 ---
 
@@ -86,17 +77,8 @@ Computer Science Master's graduate (**NJIT, GPA 3.65**) who builds **end-to-end 
 
 ### 🎓 Education
 
-- **M.S. Computer Science** — New Jersey Institute of Technology · GPA 3.65 · 2024–2026
-- **B.Tech Computer Science** — Amrita Vishwa Vidyapeetham · GPA 3.45 · 2020–2024
-
----
-
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kovinaveenkumar&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kovinaveenkumar&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</p>
+- **M.S. Computer Science** — New Jersey Institute of Technology · 2024–2026
+- **B.Tech Computer Science** — Amrita Vishwa Vidyapeetham · 2020–2024
 
 ---
 
