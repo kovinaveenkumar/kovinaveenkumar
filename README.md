@@ -7,9 +7,9 @@
 <p align="center">
   <a href="https://kovinaveenkumar.github.io"><img src="https://img.shields.io/badge/Portfolio-2dd4bf?style=flat&logo=githubpages&logoColor=black"/></a>
   <a href="https://www.linkedin.com/in/kovinaveenkumar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
+  <a href="https://leetcode.com/u/naveenkumarkovi/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black"/></a>
+  <a href="https://www.hackerrank.com/profile/U4CSE20238"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=flat&logo=hackerrank&logoColor=black"/></a>
   <a href="mailto:naveenchowdary1106@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Location-Jersey%20City,%20NJ-0e76a8?style=flat&logo=googlemaps&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=flat&logo=briefcase&logoColor=white"/>
 </p>
 
 ---
@@ -22,7 +22,7 @@ Computer Science Master's graduate (**NJIT**) who builds **end-to-end data and A
 - 🧰 Daily drivers: **Python, SQL, Apache Spark, AWS/Azure/GCP, scikit-learn, FastAPI, LLMs & RAG**
 - 📄 **IEEE-published** co-author (NLP) · 🏅 Databricks, Google Cloud, Oracle & Anthropic certified
 - 🌐 Portfolio: **[kovinaveenkumar.github.io](https://kovinaveenkumar.github.io)**
-- 🎯 Open to roles in Data Engineering, Data Science, Data Analytics, ML/AI, and Software Engineering
+- 🔗 Find me: [LinkedIn](https://www.linkedin.com/in/kovinaveenkumar/) · [LeetCode](https://leetcode.com/u/naveenkumarkovi/) · [HackerRank](https://www.hackerrank.com/profile/U4CSE20238)
 
 ---
 
@@ -63,14 +63,14 @@ Computer Science Master's graduate (**NJIT**) who builds **end-to-end data and A
 - **Google Cloud** — Generative AI, LLMs & Prompt Design (Vertex AI)
 - **Anthropic** — AI Fluency: Framework & Foundations · Building with the Claude API
 - **Oracle** — Data Platform 2025 · OCI AI Foundations
-- **HackerRank** — SQL (Advanced) · Software Engineer
+- **[HackerRank](https://www.hackerrank.com/profile/U4CSE20238)** — SQL (Advanced) · Software Engineer
 - **Forage** — Data Science / Analytics Simulations (BCG · Deloitte · Quantium)
 
 ---
 
 ### 📄 Publication
 
-📰 **SecureComment: Safeguarding Online Discussions with Intelligent Toxic Comment Filtering** — *IEEE*, Apr 2024 (co-author)
+📰 [**SecureComment: Safeguarding Online Discussions with Intelligent Toxic Comment Filtering**](https://ieeexplore.ieee.org/document/10503420) — *IEEE*, Apr 2024 (co-author)
 
 ---
 
@@ -84,5 +84,6 @@ Computer Science Master's graduate (**NJIT**) who builds **end-to-end data and A
 <p align="center">
   <a href="https://kovinaveenkumar.github.io"><img src="https://img.shields.io/badge/Portfolio-Visit-2dd4bf?style=for-the-badge&logo=githubpages&logoColor=black"/></a>
   <a href="https://www.linkedin.com/in/kovinaveenkumar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin"/></a>
+  <a href="https://leetcode.com/u/naveenkumarkovi/"><img src="https://img.shields.io/badge/LeetCode-Solve-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
   <a href="mailto:naveenchowdary1106@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
