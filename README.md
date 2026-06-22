@@ -77,8 +77,8 @@ Computer Science Master's graduate (**NJIT**) who builds **end-to-end data and A
 
 ### 🎓 Education
 
-- **M.S. Computer Science** — New Jersey Institute of Technology · 2024–2026
-- **B.Tech Computer Science** — Amrita Vishwa Vidyapeetham · 2020–2024
+- **M.S. Computer Science** — New Jersey Institute of Technology 
+- **B.Tech Computer Science** — Amrita Vishwa Vidyapeetham 
 
 ---
 
