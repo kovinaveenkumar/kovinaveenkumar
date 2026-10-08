@@ -22,7 +22,7 @@ I'm a **software engineer with 3+ years of experience** designing, building, tes
 Today I build and maintain backend and data-processing services for an enterprise healthcare platform at **Insight Global**, working in Python, SQL and PySpark on Databricks, Snowflake and AWS. Most of my work is writing reusable, well-tested components, tracing issues across distributed systems to the root cause, tuning performance, and shipping changes through code review and CI/CD.
 
 - 🧰 **Daily tools:** Python · Java · SQL · PySpark · Databricks · Snowflake · AWS · Docker · Git
-- 🤖 **Lately:** AI agents with guardrails and evaluation (Claude API, MCP), plus forecasting and optimization
+- 🤖 **Lately:** clinical reporting on EHR data models (SQL, Oracle, CCL), AI agents with guardrails and evaluation (Claude API, MCP), and forecasting and optimization
 - 📄 **IEEE-published** co-author (NLP, 93.82% accuracy)
 - 🎓 **M.S. Computer Science, NJIT** · B.Tech Computer Science and Engineering, Amrita Vishwa Vidyapeetham
 - 🔎 **Open to** software engineer, backend and full-stack roles
@@ -34,7 +34,10 @@ Today I build and maintain backend and data-processing services for an enterpris
 | Project | What it does | Tech |
 |---|---|---|
 | 📦 [**Distribution Center Demand Forecast & Capacity Optimization**](https://github.com/kovinaveenkumar/distribution-center-optimization) · [dashboard](https://public.tableau.com/app/profile/naveen.k7476/viz/DCCapacityDashboard/DCCapacityDashboard) | Forecasts 12 weeks of regional demand (about 5.8% error vs 9.7% for a seasonal baseline), then a linear program assigns volume across 4 distribution centers within capacity at minimum cost. Compares capacity-expansion scenarios. Network inputs are documented assumptions. | Python · Prophet · ARIMA · PuLP · SQL · Tableau |
+| 🏥 [**Clinical Operations Reporting (Cerner Millennium-style)**](https://github.com/kovinaveenkumar/millennium-clinical-reporting) · [case study](https://github.com/kovinaveenkumar/millennium-clinical-reporting/blob/main/docs/case_study.pdf) | 7 KPI and operational reports (ED boarding, lab turnaround, critical-result calls, readmissions, census) on a 13-table Millennium-style data model, in SQL and CCL with HTML/MPage output. 21 pre-publish checks, 19 tests, Oracle port reconciled 238/238 values, and a Discern rule tested in silent mode (60-min window: 71 false alerts vs 993). | SQL · Oracle · CCL · Python · HTML |
 | 🤖 [**AI Data Analyst Agent**](https://github.com/kovinaveenkumar/ai-data-analyst-agent) | Claude agents turn plain-English questions into validated SQL, charts and reports through a read-only MCP server. CI, tests and a 30-question evaluation (28/30 correct). | Python · Claude API · MCP · PostgreSQL · Streamlit |
+| 📞 [**Call Center KPI Analytics**](https://github.com/kovinaveenkumar/call-center-kpi-analytics) · [dashboard](https://public.tableau.com/app/profile/naveen.k7476/viz/CallCenterKPIDashboard_17913996371520/Dashboard1) | Workforce-management KPIs (AHT, service level, abandonment, occupancy, shrinkage) at 30-minute intervals for 3 queues, with Erlang C staffing. Found a late-morning service-level dip with flat staffing, pointing to schedule shifts rather than more headcount. | SQL · Python · Tableau |
+| 🐝 [**HiveQL Supply-Chain Analytics**](https://github.com/kovinaveenkumar/hive-supply-chain-analytics) | Retail demand and forecast backtests in HiveQL on Apache Hive 4: ORC tables partitioned by region and year, a bucketed table, window functions and CTAS. Results match the original Python pipeline. | HiveQL · Apache Hive · Docker |
 | 🛡️ [**Credit-Card Fraud Detection**](https://github.com/kovinaveenkumar/fraud-detection-ml) | Benchmarks Logistic Regression, Random Forest and Gradient Boosting on imbalanced data; best model served by a FastAPI scoring service. | Python · scikit-learn · FastAPI |
 | 📚 [**RAG Document Assistant**](https://github.com/kovinaveenkumar/rag-document-assistant) | Retrieval-augmented assistant with embeddings, cosine-similarity retrieval and grounded answers with citations. | Python · Embeddings · FastAPI |
 | 📝 [**SecureComment (IEEE)**](https://github.com/kovinaveenkumar/securecomment-nlp-toxic-comment) | TF-IDF with voting and stacking ensembles for toxic-comment classification. Basis of a co-authored IEEE paper. | Python · NLP · scikit-learn |
@@ -58,15 +61,17 @@ Today I build and maintain backend and data-processing services for an enterpris
 
 ### 🛠️ Tech stack
 
-**Languages:** `Python` · `Java` · `SQL` · `JavaScript` · `R` · `C++`
+**Languages:** `Python` · `Java` · `SQL` · `Oracle SQL` · `HiveQL` · `CCL (Cerner)` · `JavaScript` · `R` · `C++`
 
 **Backend & engineering practices:** `REST APIs` · `Microservices` · `OAuth 2.0 / JWT` · `RBAC` · `Docker` · `Git` · `Code review` · `Unit & integration testing` · `CI/CD (GitHub Actions)` · `Agile`
 
-**Cloud & data:** `AWS` · `Azure` · `Oracle Cloud (OCI)` · `Oracle Database` · `Databricks` · `Snowflake` · `PySpark` · `Apache Spark` · `Hadoop` · `PostgreSQL` · `MySQL`
+**Cloud & data:** `AWS` · `Azure` · `Oracle Cloud (OCI)` · `Oracle Database` · `Databricks` · `Snowflake` · `PySpark` · `Apache Spark` · `Hadoop` · `Apache Hive` · `PostgreSQL` · `MySQL` · `SQLite`
 
 **AI & ML:** `scikit-learn` · `NLP` · `LLMs` · `Claude API` · `AI agents` · `MCP` · `RAG` · `Time-series forecasting` · `Linear programming`
 
-**Analytics & BI:** `Tableau` · `Power BI` · `Pandas` · `Matplotlib` · `ggplot2`
+**Analytics & BI:** `Tableau` · `Power BI` · `Pandas` · `Matplotlib` · `ggplot2` · `KPI & operational reporting` · `Data validation`
+
+**Healthcare data:** `Cerner Millennium data model` · `Discern Rules` · `MPages` · `Clinical KPIs`
 
 ---
 
