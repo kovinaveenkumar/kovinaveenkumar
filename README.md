@@ -22,7 +22,7 @@ I'm a **software engineer with 3+ years of experience** designing, building, tes
 Today I build and maintain backend and data-processing services for an enterprise healthcare platform at **Insight Global**, working in Python, SQL and PySpark on Databricks, Snowflake and AWS. Most of my work is writing reusable, well-tested components, tracing issues across distributed systems to the root cause, tuning performance, and shipping changes through code review and CI/CD.
 
 - 🧰 **Daily tools:** Python · Java · SQL · PySpark · Databricks · Snowflake · AWS · Docker · Git
-- 🤖 **Lately:** clinical reporting on EHR data models (SQL, Oracle, CCL), AI agents with guardrails and evaluation (Claude API, MCP), and forecasting and optimization
+- 🤖 **Lately:** incremental Snowflake pipelines (Snowpipe, Streams & Tasks, SCD Type 2, reconciliation), clinical reporting on EHR data models (SQL, Oracle, CCL), AI agents with guardrails and evaluation (Claude API, MCP), and forecasting and optimization
 - 📄 **IEEE-published** co-author (NLP, 93.82% accuracy)
 - 🎓 **M.S. Computer Science, NJIT** · B.Tech Computer Science and Engineering, Amrita Vishwa Vidyapeetham
 - 🔎 **Open to** software engineer, backend and full-stack roles
@@ -33,6 +33,7 @@ Today I build and maintain backend and data-processing services for an enterpris
 
 | Project | What it does | Tech |
 |---|---|---|
+| ❄️ [**Snowflake Incremental Data Warehouse**](https://github.com/kovinaveenkumar/snowflake-incremental-dw) | Daily broker account and trade files loaded by Snowpipe (REST API), Streams and a scheduled 5-task graph into an SCD Type 2 account dimension, a trade fact and a daily position snapshot. Every file is reconciled to the cent against the sender's control totals (60/60 files, $7.3B notional), all 178 planted bad rows are caught with a reason, and an Oracle PL/SQL rebuild matches count for count. 62 tests. Synthetic data. | Snowflake · Snowpipe · Streams & Tasks · Snowpark · SQL · Oracle PL/SQL · Python |
 | 📦 [**Distribution Center Demand Forecast & Capacity Optimization**](https://github.com/kovinaveenkumar/distribution-center-optimization) · [dashboard](https://public.tableau.com/app/profile/naveen.k7476/viz/DCCapacityDashboard/DCCapacityDashboard) | Forecasts 12 weeks of regional demand (about 5.8% error vs 9.7% for a seasonal baseline), then a linear program assigns volume across 4 distribution centers within capacity at minimum cost. Compares capacity-expansion scenarios. Network inputs are documented assumptions. | Python · Prophet · ARIMA · PuLP · SQL · Tableau |
 | 🏥 [**Clinical Operations Reporting (Cerner Millennium-style)**](https://github.com/kovinaveenkumar/millennium-clinical-reporting) · [case study](https://github.com/kovinaveenkumar/millennium-clinical-reporting/blob/main/docs/case_study.pdf) | 7 KPI and operational reports (ED boarding, lab turnaround, critical-result calls, readmissions, census) on a 13-table Millennium-style data model, in SQL and CCL with HTML/MPage output. 21 pre-publish checks, 19 tests, Oracle port reconciled 238/238 values, and a Discern rule tested in silent mode (60-min window: 71 false alerts vs 993). | SQL · Oracle · CCL · Python · HTML |
 | 🤖 [**AI Data Analyst Agent**](https://github.com/kovinaveenkumar/ai-data-analyst-agent) | Claude agents turn plain-English questions into validated SQL, charts and reports through a read-only MCP server. CI, tests and a 30-question evaluation (28/30 correct). | Python · Claude API · MCP · PostgreSQL · Streamlit |
@@ -61,11 +62,11 @@ Today I build and maintain backend and data-processing services for an enterpris
 
 ### 🛠️ Tech stack
 
-**Languages:** `Python` · `Java` · `SQL` · `Oracle SQL` · `HiveQL` · `CCL (Cerner)` · `JavaScript` · `R` · `C++`
+**Languages:** `Python` · `Java` · `SQL` · `Oracle SQL` · `PL/SQL` · `HiveQL` · `CCL (Cerner)` · `JavaScript` · `R` · `C++`
 
 **Backend & engineering practices:** `REST APIs` · `Microservices` · `OAuth 2.0 / JWT` · `RBAC` · `Docker` · `Git` · `Code review` · `Unit & integration testing` · `CI/CD (GitHub Actions)` · `Agile`
 
-**Cloud & data:** `AWS` · `Azure` · `Oracle Cloud (OCI)` · `Oracle Database` · `Databricks` · `Snowflake` · `PySpark` · `Apache Spark` · `Hadoop` · `Apache Hive` · `PostgreSQL` · `MySQL` · `SQLite`
+**Cloud & data:** `AWS` · `Azure` · `Oracle Cloud (OCI)` · `Oracle Database` · `Databricks` · `Snowflake` · `Snowpipe` · `Streams & Tasks` · `Snowpark` · `PySpark` · `Apache Spark` · `Hadoop` · `Apache Hive` · `PostgreSQL` · `MySQL` · `SQLite`
 
 **AI & ML:** `scikit-learn` · `NLP` · `LLMs` · `Claude API` · `AI agents` · `MCP` · `RAG` · `Time-series forecasting` · `Linear programming`
 
